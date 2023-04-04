@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="index.css"></link>
         <link rel="stylesheet" href="menu.css"></link>
         <title>menu</title>
+        <script src="./menu.js"></script>
     </head>
     <body>
         <header>
@@ -17,9 +18,10 @@
             <nav>
                 <ul class="navigation_bar_list">
                     <li><a href="./index.html">home</a></li>
+                    <li><a href="#">menu</a></li>
                     <li><a href="#">contact</a></li>
                     <li><a href="#">about</a></li>
-            </nav>
+            </nav>  
             
         </header>
         <div class="search-banner">
@@ -35,7 +37,7 @@
         
         <div class="div">
             <span class="item-title">items</span>
-            <div class="grid-container">
+            <div class="grid-container" id="grid-container">
                 <div class="grid-item">
                     <img src="./images/merchandise/10 pcs Silver or Bronze Tone DIY Swivel Keychain.jpg" class="item-pic"></img>
                     <div class="item-name">item1</div>
@@ -49,6 +51,10 @@
                 <div class="grid-item">item 6</div>
                 <div class="grid-item">item 7</div>
                 <div class="grid-item">item 8</div>
+            </div>
+            <div>
+                <button style="float: left;">prev</button>
+                <button style="float: right;">next</button>
             </div>
         </div>
 

@@ -35,10 +35,15 @@ header{
 }
 
 .div{
-    margin-top: 100px;
+    margin: 100px 1%;
     font-size: 55px;
     color: white;
-    background-color: #111111;
+    border-radius: 30px;
+    background-color: #fecf9b;
+}
+
+.div * {
+    background-color: #fecf9b;
 }
 
 
